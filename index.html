@@ -6,11 +6,13 @@
     <meta http-equiv="Content-Security-Policy" content=" default-src 'self';
       script-src 'self' 'unsafe-eval'
         blob: 
-        Build/PG.loader.js 
+        Build/Build.loader.js 
         main.js
         https://accounts.google.com/gsi/client 
         https://accounts.google.com; 
       connect-src 'self' 
+        https://soleil-backend-ww5o.onrender.com/api/v1/login
+        https://soleil-backend-ww5o.onrender.com/api/v1/modules
         https://www.googleapis.com;
       style-src 'self' 'unsafe-inline'
         https://accounts.google.com/gsi/style;
