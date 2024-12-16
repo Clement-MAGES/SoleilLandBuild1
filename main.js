@@ -54,11 +54,11 @@ updateBannerVisibility();
 }
 
 var buildUrl = "Build";
-var loaderUrl = buildUrl + "/Build.loader.js";
+var loaderUrl = buildUrl + "/TestBuild14.loader.js";
 var config = {
-dataUrl: buildUrl + "/Build.data.unityweb",
-frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
-codeUrl: buildUrl + "/Build.wasm.unityweb",
+dataUrl: buildUrl + "/TestBuild14.data.unityweb",
+frameworkUrl: buildUrl + "/TestBuild14.framework.js.unityweb",
+codeUrl: buildUrl + "/TestBuild14.wasm.unityweb",
 streamingAssetsUrl: "StreamingAssets",
 companyName: "DefaultCompany",
 productName: "SOLEIL_URP",
